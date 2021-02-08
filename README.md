@@ -4,7 +4,7 @@
 
 ## Руководство по запуску:
 
-###Install docker
+### Install docker
 ```commandline
 cd KODETest/
 docker-compose up -d build
