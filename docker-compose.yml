@@ -1,0 +1,9 @@
+version: '3'
+services:
+  core_api:
+    build: .
+    container_name: "core-api"
+    ports:
+      - "8002:15400"
+    volumes:
+      - ./app/:/app
